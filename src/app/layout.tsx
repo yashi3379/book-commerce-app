@@ -4,7 +4,7 @@ import { NextAuthProvider } from "@/app/lib/next-auth/provider"
 import "./globals.css";
 import Header from "./components/Header";
 import { Suspense } from "react";
-import Loading from "./loading";
+import Loading from "./loadingAicon";
 
 
 const noteSansJP = Noto_Sans_JP({ subsets: ["latin"], weight: ["400"] });
